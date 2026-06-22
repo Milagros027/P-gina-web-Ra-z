@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mana Mate</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">MANA</div>
+    <nav>
+      <a href="#que-es">Qué es</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#sabores">Sabores</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Thé à boire · infusion énergisante</p>
+        <h1>Una energía suave, natural y fresca para todo el día.</h1>
+        <p class="lead">Una bebida botánica inspirada en la yerba mate: activa sin golpe, refresca sin exagerar y acompaña tu ritmo con una identidad clara y moderna.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#sabores">Ver sabores</a>
+          <a class="btn ghost" href="#que-es">Descubrir más</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="can-wrap">
+          <div class="can">MANA</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="que-es" class="info-section reveal">
+      <p class="section-kicker">Mana ? Yerba Maté ?</p>
+      <h2>¿De qué hablamos?</h2>
+      <p>Una interpretación contemporánea de la yerba mate, pensada como bebida funcional: limpia, amable y con una estética premium que deja respirar el contenido.</p>
+    </section>
+
+    <section id="beneficios" class="benefits">
+      <article class="card reveal"><h3>Sin crash</h3><p>Una energía pareja que te activa sin contarte el día después.</p></article>
+      <article class="card reveal"><h3>Cafeína natural</h3><p>Inspirada en la planta, con una sensación más suave que el impulso brusco.</p></article>
+      <article class="card reveal"><h3>Antioxidantes</h3><p>Un perfil vegetal con foco en lo natural y lo cotidiano.</p></article>
+      <article class="card reveal"><h3>Vegan</h3><p>Una bebida a base de planta, simple y directa.</p></article>
+    </section>
+
+    <section id="sabores" class="flavors reveal">
+      <div class="flavor-text">
+        <p class="section-kicker">Saveurs</p>
+        <h2>Frescos, frutales y con brillo.</h2>
+        <p>Una paleta pensada para despertar el paladar con notas limpias, vibrantes y un final refrescante.</p>
+      </div>
+      <div class="flavor-grid">
+        <div class="flavor f1">Lima</div>
+        <div class="flavor f2">Pomelo</div>
+        <div class="flavor f3">Menta</div>
+        <div class="flavor f4">Maracuyá</div>
+      </div>
+    </section>
+
+    <section class="cta reveal" id="contacto">
+      <h2>Diseño limpio, energía natural, identidad fuerte.</h2>
+      <p>Listo para adaptar el nombre, colores y contenido de tu marca.</p>
+      <a class="btn primary" href="mailto:hola@mana.com">Empezar proyecto</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
